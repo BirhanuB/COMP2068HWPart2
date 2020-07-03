@@ -1,8 +1,18 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url(../images/bg1.png);
 }
 
 a {
     color: #00B7FF;
+    font-size: calc(2vw + 0.5rem);
+    font-weight: bold;
+}
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90vh;
+    margin: 1rem 0 2rem 5.5vw;
 }

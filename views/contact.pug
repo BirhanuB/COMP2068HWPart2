@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    include \partials\header
+    p.  
+        Thank you for visiting my portfolio website.
+    p.
+        For further information, or if you have any inquiries or feedback, please fill out 
+        the form below:
+    form(method=' ' action='/contact')
+        div
+            p Full name: 
+                input(type='text' name='name' placeholder='Full name' size='40')
+        div            
+            p Email: 
+                input(type='email' name='email' placeholder='Email' size='44')
+        div
+            p Comment: 
+            textarea(name='comment' rows='4' cols='52')
+        div
+            button(type='reset' value='Reset') Reset
+            button(type='submit' value='Submit' style='margin: 10px') Submit
+    
